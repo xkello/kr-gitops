@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: gitops-repo
+  name: kr-gitops
   namespace: wac-hospital
 spec:
   interval: 1m0s
@@ -10,4 +10,4 @@ spec:
   secretRef:
     name: repository-pat
   timeout: 1m0s
-  url: https://github.com/Serbel97/x-gitops
+  url: https://github.com/xkello/kr-gitops

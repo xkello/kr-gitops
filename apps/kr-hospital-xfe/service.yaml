@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: x-hospital-xfe   #  určuje aj záznam DNS v rámci virtuálne siete klastra
+  name: kr-hospital-xfe   #  určuje aj záznam DNS v rámci virtuálne siete klastra
 spec:
   selector:
-    pod: x-hospital-xfe-label     # zhoduje sa s metadata.labels šablóny pod-u
+    pod: kr-hospital-xfe-label     # zhoduje sa s metadata.labels šablóny pod-u
   ports:
   - name: http
     protocol: TCP

@@ -8,8 +8,8 @@ labels:
       app.kubernetes.io/part-of: wac-hospital
 
 resources:
-  - ../../../apps/x-hospital-xfe
-  - ../../../apps/x-hospital-api
+  - ../../../apps/kr-hospital-xfe
+  - ../../../apps/kr-hospital-api
   - ../../../apps/mongo-express
 
 patches:
