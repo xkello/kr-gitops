@@ -5,6 +5,7 @@ resources:
   - 'https://github.com/Serbel97/ambulance-api//deployments/kustomize/install'
   - openapi-ui.service.yaml
   - http-route.yaml
+  - service.yaml
 
 patches:
   - path: patches/hospital-api.deployment.yaml
