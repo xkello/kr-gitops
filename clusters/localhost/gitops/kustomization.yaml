@@ -17,3 +17,6 @@ resources:
 - image-update-automation.yaml
 - hospital-api.image-repository.yaml
 - hospital-api.image-policy.yaml
+- ../../../apps/kr-hospital-xfe
+- ../../../apps/kr-hospital-api
+- ../../../apps/mongo-express
