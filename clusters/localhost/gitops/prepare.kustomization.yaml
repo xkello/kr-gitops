@@ -18,4 +18,4 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: gitops-repo
+    name: kr-gitops
