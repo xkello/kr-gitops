@@ -12,9 +12,9 @@ patches:
       group: apps
       version: v1
       kind: Deployment
-      name: x-hospital-api
+      name: kr-hospital-api
   - path: patches/hospital-api.service.yaml
     target:
       version: v1
       kind: Service
-      name: x-hospital-api
+      name: kr-hospital-api
